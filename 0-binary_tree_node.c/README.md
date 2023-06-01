@@ -74,7 +74,38 @@ Function Prototypes
 | `122-array_to_avl.c`             | `avl_t *array_to_avl(int *array, size_t size);`                                                  |
 
 ## Tasks :page_with_curl:
-
+rray_to_bst.c`             | `bst_t *array_to_bst(int *array, size
+## Tasks :page_with_curl:
+* **0. New node**
+  * [0-binary_tree_node.c](./0-binary_tree_node.c): C function that create
+s a
+  binary tree node with a given parent and value.
+  * Returns a pointer to the new node, or `NULL` on failure.
+* **1. Insert left**
+  * [1-binary_tree_insert](./1-binary_tree_insert): C function that insert
+s a
+  node as the left-child of another.
+  * Returns a pointer to the new node, or `NULL` on failure.
+  * If the given `parent` already contains a left node, the new node takes
+ its
+  place and the old left-child becomes the left-child of the new node.
+* **2. Insert right**
+  * [2-binary_tree_insert_right.c](./2-binary_tree_insert_right.c): C func
+tion that
+  inserts a node as the right-child of another.
+  * Returns a pointer to the new node, or `NULL` on failure.
+  * If the given `parent` already contains a right node, the new node take
+s its
+  place and the old right-child becomes the right-child of the new node.
+* **3. Delete**
+  * [3-binary_tree_delete.c](./3-binary_tree_delete.c): C function that de
+letes
+  an entire binary tree.
+* **4. Is leaf**
+  * [4-binary_tree_is_leaf.c](./4-binary_tree_is_leaf.c): C function that
+checks
+  if a given node is a leaf.
+"README.md" 263L, 13298C                                89,0-1        31%
 * **0. New node**
   * [0-binary_tree_node.c](./0-binary_tree_node.c): C function that creates a
   binary tree node with a given parent and value.
